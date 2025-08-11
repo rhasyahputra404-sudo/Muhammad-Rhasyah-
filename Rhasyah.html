@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Muhammad Rhasyah A.P KELAS 12</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #fff0f5;
+            color: #333;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #ff1493;
+            margin-bottom: 30px;
+        }
+
+        form {
+            background-color: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+            max-width: 500px;
+            margin: 0 auto;
+            box-shadow: 0 0 10px rgba(255, 105, 180, 0.3);
+        }
+
+        input, select, textarea, button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ffc0cb;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+
+        input:focus, textarea:focus, select:focus {
+            outline: none;
+            border-color: #ff69b4;
+            box-shadow: 0 0 5px rgba(255, 105, 180, 0.4);
+        }
+
+        button {
+            background-color: #ff69b4;
+            color: white;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #ff1493;
+        }
+
+        label, select, textarea {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Aca Cake</h1>
+
+    <form action="" method="POST" enctype="multipart/form-data">
+        <label>Nama:</label>
+        <input type="text" name="nama_produk" required>
+
+        <label>Jenis Kue:</label>
+        <select name="kategori" required>
+            <option value="" disabled selected>Pilih Kategori</option>
+            <option value="Kue Ulang Tahun">Kue Ulang Tahun</option>
+            <option value="Bolu Ketan Susu">Bolu Ketan Susu</option>
+            <option value="Brownis Lumer">Brownis Lumer</option>
+            <option value="Lapis Legit">Lapis Legit</option>
+            <option value="Bolu Kukus Keju">Bolu Kukus Keju</option>
+            <option value="Bika Ambon">Bika Ambon</option>
+        </select>
+
+        <label>Reques Karakter Kue:</label>
+        <textarea name="deskripsi" required></textarea>
+
+        <label>Nomor HP:</label>
+        <input type="number" name="harga" required>
+
+        <label>Pesan untuk Penjual:</label>
+        <textarea name="pesan" required></textarea>
+
+        <label>Jumlah Pemesanan:</label>
+        <input type="number" name="stok" required>
+
+        <button type="submit" name="submit">Aca Nyebelin</button>
+    </form>
+
+</body>
+</html>
